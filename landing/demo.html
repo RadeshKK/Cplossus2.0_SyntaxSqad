@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IndustrialAI - Demo Version</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        .demo-header {
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            color: white;
+            padding: 1rem;
+            text-align: center;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1000;
+        }
+
+        .demo-container {
+            margin-top: 60px;
+            padding: 2rem;
+        }
+
+        .demo-features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-bottom: 3rem;
+        }
+
+        .demo-card {
+            background: white;
+            padding: 2rem;
+            border-radius: 1rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .demo-card h3 {
+            color: var(--primary-color);
+            margin-bottom: 1rem;
+        }
+
+        .demo-card p {
+            color: var(--light-text);
+            margin-bottom: 1.5rem;
+        }
+
+        .demo-card .feature-icon {
+            font-size: 2rem;
+            color: var(--primary-color);
+            margin-bottom: 1rem;
+        }
+
+        .demo-limitations {
+            background: var(--card-background);
+            padding: 2rem;
+            border-radius: 1rem;
+            margin-bottom: 3rem;
+        }
+
+        .demo-limitations h3 {
+            color: var(--text-color);
+            margin-bottom: 1rem;
+        }
+
+        .demo-limitations ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .demo-limitations li {
+            margin-bottom: 0.5rem;
+            padding-left: 1.5rem;
+            position: relative;
+        }
+
+        .demo-limitations li:before {
+            content: "⚠️";
+            position: absolute;
+            left: 0;
+        }
+
+        .upgrade-cta {
+            text-align: center;
+            padding: 2rem;
+            background: white;
+            border-radius: 1rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .upgrade-cta h3 {
+            margin-bottom: 1rem;
+        }
+
+        .upgrade-cta p {
+            color: var(--light-text);
+            margin-bottom: 1.5rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="demo-header">
+        <p>Demo Version - Limited Features</p>
+    </div>
+
+    <div class="demo-container">
+        <h2>Welcome to IndustrialAI Demo</h2>
+        <p class="hero-subtitle">Experience our platform with limited features</p>
+
+        <div class="demo-features">
+            <div class="demo-card">
+                <div class="feature-icon"><i class="fas fa-chart-line"></i></div>
+                <h3>Real-time Monitoring</h3>
+                <p>Monitor up to 3 machines simultaneously with basic metrics</p>
+                <button class="secondary-button">View Metrics</button>
+            </div>
+            <div class="demo-card">
+                <div class="feature-icon"><i class="fas fa-bell"></i></div>
+                <h3>Basic Alerts</h3>
+                <p>Receive notifications for critical machine conditions</p>
+                <button class="secondary-button">View Alerts</button>
+            </div>
+            <div class="demo-card">
+                <div class="feature-icon"><i class="fas fa-history"></i></div>
+                <h3>Historical Data</h3>
+                <p>Access 7 days of historical machine data</p>
+                <button class="secondary-button">View History</button>
+            </div>
+        </div>
+
+        <div class="demo-limitations">
+            <h3>Demo Limitations</h3>
+            <ul>
+                <li>Limited to 3 machines</li>
+                <li>7-day data retention</li>
+                <li>Basic alert system only</li>
+                <li>No predictive maintenance features</li>
+                <li>No API access</li>
+                <li>No custom dashboard configuration</li>
+            </ul>
+        </div>
+
+        <div class="upgrade-cta">
+            <h3>Ready to unlock the full potential?</h3>
+            <p>Upgrade to the full version to access all features and capabilities</p>
+            <a href="#contact" class="primary-button">Upgrade Now</a>
+        </div>
+    </div>
+
+    <script>
+        // Add loading animation
+        window.addEventListener('load', () => {
+            document.body.classList.add('loaded');
+        });
+
+        // Handle demo feature buttons
+        document.querySelectorAll('.demo-card button').forEach(button => {
+            button.addEventListener('click', () => {
+                alert('This feature is limited in the demo version. Please upgrade to access the full functionality.');
+            });
+        });
+    </script>
+</body>
+</html> 

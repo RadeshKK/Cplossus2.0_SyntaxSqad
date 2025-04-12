@@ -1,0 +1,1001 @@
+Temperature (°C),Status
+55.8,Healthy
+38.1,Healthy
+56.3,Healthy
+69.1,Caution
+65.9,Caution
+65.6,Caution
+86.2,Failure Likely
+66.3,Caution
+34.5,Healthy
+73.6,Caution
+50.8,Healthy
+88.0,Failure Likely
+40.4,Healthy
+52.2,Healthy
+55.6,Healthy
+57.8,Healthy
+44.7,Healthy
+48.5,Healthy
+76.3,Caution
+58.2,Healthy
+66.1,Caution
+68.3,Caution
+75.2,Caution
+74.9,Caution
+65.4,Caution
+35.9,Healthy
+85.9,Failure Likely
+64.7,Caution
+71.9,Caution
+75.7,Caution
+69.9,Caution
+88.4,Failure Likely
+82.0,Failure Likely
+61.3,Caution
+74.2,Caution
+50.2,Healthy
+84.6,Failure Likely
+51.9,Healthy
+48.4,Healthy
+81.8,Failure Likely
+40.4,Healthy
+88.8,Failure Likely
+30.9,Healthy
+67.1,Caution
+71.7,Caution
+57.3,Healthy
+85.4,Failure Likely
+35.2,Healthy
+33.1,Healthy
+61.8,Caution
+31.4,Healthy
+83.4,Failure Likely
+42.4,Healthy
+66.9,Caution
+61.3,Caution
+73.0,Caution
+81.0,Failure Likely
+48.0,Healthy
+76.4,Caution
+39.3,Healthy
+31.4,Healthy
+68.8,Caution
+61.6,Caution
+73.0,Caution
+37.8,Healthy
+76.2,Caution
+87.5,Failure Likely
+64.8,Caution
+61.1,Caution
+55.2,Healthy
+44.9,Healthy
+33.4,Healthy
+85.5,Failure Likely
+49.6,Healthy
+54.8,Healthy
+85.2,Failure Likely
+84.8,Failure Likely
+30.3,Healthy
+40.6,Healthy
+36.8,Healthy
+70.3,Caution
+46.5,Healthy
+33.0,Healthy
+87.1,Failure Likely
+78.7,Caution
+85.8,Failure Likely
+75.5,Caution
+75.5,Caution
+69.7,Caution
+45.5,Healthy
+42.3,Healthy
+41.7,Healthy
+39.7,Healthy
+57.3,Healthy
+62.2,Caution
+80.7,Failure Likely
+74.4,Caution
+68.9,Caution
+58.7,Healthy
+52.9,Healthy
+33.8,Healthy
+66.5,Caution
+68.1,Caution
+85.8,Failure Likely
+80.1,Failure Likely
+82.0,Failure Likely
+90.0,Failure Likely
+37.7,Healthy
+86.8,Failure Likely
+37.0,Healthy
+30.5,Healthy
+74.7,Caution
+35.9,Healthy
+67.5,Caution
+71.4,Caution
+83.6,Failure Likely
+45.0,Healthy
+60.4,Caution
+46.8,Healthy
+73.3,Caution
+72.8,Caution
+76.0,Caution
+84.2,Failure Likely
+69.7,Caution
+55.5,Healthy
+41.6,Healthy
+76.6,Caution
+69.8,Caution
+36.3,Healthy
+84.9,Failure Likely
+45.2,Healthy
+52.3,Healthy
+57.0,Healthy
+68.6,Caution
+68.8,Caution
+88.3,Failure Likely
+37.2,Healthy
+77.6,Caution
+42.5,Healthy
+81.7,Failure Likely
+56.0,Healthy
+80.6,Failure Likely
+40.8,Healthy
+65.5,Caution
+34.6,Healthy
+63.0,Caution
+47.8,Healthy
+42.5,Healthy
+57.5,Healthy
+60.5,Caution
+51.9,Healthy
+46.4,Healthy
+84.0,Failure Likely
+36.2,Healthy
+51.2,Healthy
+49.4,Healthy
+89.6,Failure Likely
+75.7,Caution
+52.4,Healthy
+74.7,Caution
+39.6,Healthy
+49.0,Healthy
+44.4,Healthy
+54.6,Healthy
+58.5,Healthy
+54.8,Healthy
+73.0,Caution
+31.1,Healthy
+74.8,Caution
+68.5,Caution
+42.9,Healthy
+68.0,Caution
+41.2,Healthy
+88.6,Failure Likely
+51.5,Healthy
+40.9,Healthy
+40.0,Healthy
+39.6,Healthy
+58.9,Healthy
+50.5,Healthy
+67.9,Caution
+69.7,Caution
+55.2,Healthy
+72.4,Caution
+89.6,Failure Likely
+43.2,Healthy
+86.8,Failure Likely
+54.3,Healthy
+43.9,Healthy
+82.3,Failure Likely
+39.2,Healthy
+70.8,Caution
+89.0,Failure Likely
+43.9,Healthy
+66.4,Caution
+69.5,Caution
+84.4,Failure Likely
+68.9,Caution
+50.9,Healthy
+30.8,Healthy
+42.0,Healthy
+87.9,Failure Likely
+80.3,Failure Likely
+39.5,Healthy
+83.4,Failure Likely
+49.8,Healthy
+77.0,Caution
+62.1,Caution
+32.0,Healthy
+41.3,Healthy
+61.3,Caution
+84.8,Failure Likely
+83.9,Failure Likely
+66.3,Caution
+51.6,Healthy
+76.3,Caution
+58.9,Healthy
+50.0,Healthy
+76.4,Caution
+80.6,Failure Likely
+68.4,Caution
+87.9,Failure Likely
+32.6,Healthy
+57.2,Healthy
+64.2,Caution
+61.9,Caution
+60.1,Caution
+45.9,Healthy
+41.9,Healthy
+54.7,Healthy
+45.6,Healthy
+48.7,Healthy
+37.1,Healthy
+70.3,Caution
+73.9,Caution
+83.9,Failure Likely
+67.3,Caution
+38.4,Healthy
+46.4,Healthy
+57.2,Healthy
+71.1,Caution
+58.8,Healthy
+72.6,Caution
+89.5,Failure Likely
+49.2,Healthy
+62.3,Caution
+57.9,Healthy
+58.5,Healthy
+58.3,Healthy
+37.5,Healthy
+41.4,Healthy
+83.2,Failure Likely
+36.1,Healthy
+75.4,Caution
+56.3,Healthy
+31.7,Healthy
+78.6,Caution
+69.9,Caution
+32.9,Healthy
+31.7,Healthy
+34.7,Healthy
+50.8,Healthy
+75.1,Caution
+83.7,Failure Likely
+81.8,Failure Likely
+33.7,Healthy
+63.6,Caution
+46.5,Healthy
+56.5,Healthy
+65.8,Caution
+64.0,Caution
+32.7,Healthy
+80.4,Failure Likely
+31.0,Healthy
+89.8,Failure Likely
+80.9,Failure Likely
+71.6,Caution
+31.7,Healthy
+87.7,Failure Likely
+83.9,Failure Likely
+32.8,Healthy
+81.9,Failure Likely
+65.9,Caution
+37.6,Healthy
+43.5,Healthy
+81.6,Failure Likely
+68.4,Caution
+43.2,Healthy
+74.2,Caution
+73.1,Caution
+88.5,Failure Likely
+32.6,Healthy
+57.2,Healthy
+39.1,Healthy
+45.3,Healthy
+84.5,Failure Likely
+89.0,Failure Likely
+66.6,Caution
+42.4,Healthy
+45.2,Healthy
+70.6,Caution
+53.3,Healthy
+77.6,Caution
+85.4,Failure Likely
+87.5,Failure Likely
+39.8,Healthy
+60.3,Caution
+36.0,Healthy
+36.5,Healthy
+85.9,Failure Likely
+80.4,Failure Likely
+52.6,Healthy
+34.5,Healthy
+67.7,Caution
+62.0,Caution
+84.6,Failure Likely
+37.9,Healthy
+73.5,Caution
+33.1,Healthy
+48.7,Healthy
+74.6,Caution
+38.4,Healthy
+37.6,Healthy
+40.5,Healthy
+42.2,Healthy
+61.4,Caution
+48.5,Healthy
+65.9,Caution
+83.1,Failure Likely
+66.9,Caution
+47.3,Healthy
+44.9,Healthy
+33.2,Healthy
+80.1,Failure Likely
+83.2,Failure Likely
+75.2,Caution
+77.0,Caution
+39.0,Healthy
+70.3,Caution
+49.0,Healthy
+81.0,Failure Likely
+44.0,Healthy
+39.8,Healthy
+54.9,Healthy
+36.0,Healthy
+45.9,Healthy
+50.2,Healthy
+63.0,Caution
+84.1,Failure Likely
+44.1,Healthy
+77.1,Caution
+83.7,Failure Likely
+84.5,Failure Likely
+50.5,Healthy
+45.7,Healthy
+43.5,Healthy
+65.1,Caution
+67.0,Caution
+53.1,Healthy
+58.5,Healthy
+50.6,Healthy
+32.6,Healthy
+87.9,Failure Likely
+37.3,Healthy
+65.7,Caution
+60.3,Caution
+38.0,Healthy
+80.8,Failure Likely
+84.6,Failure Likely
+76.6,Caution
+82.9,Failure Likely
+73.9,Caution
+49.8,Healthy
+78.5,Caution
+57.2,Healthy
+63.8,Caution
+39.1,Healthy
+58.2,Healthy
+77.7,Caution
+66.3,Caution
+63.9,Caution
+47.4,Healthy
+88.2,Failure Likely
+42.6,Healthy
+48.9,Healthy
+53.1,Healthy
+85.9,Failure Likely
+62.5,Caution
+86.6,Failure Likely
+35.1,Healthy
+54.2,Healthy
+73.8,Caution
+51.3,Healthy
+69.4,Caution
+31.6,Healthy
+84.3,Failure Likely
+39.5,Healthy
+84.4,Failure Likely
+66.6,Caution
+31.9,Healthy
+84.8,Failure Likely
+70.7,Caution
+77.8,Caution
+87.5,Failure Likely
+78.7,Caution
+63.7,Caution
+30.9,Healthy
+62.6,Caution
+50.8,Healthy
+87.5,Failure Likely
+42.5,Healthy
+77.0,Caution
+57.1,Healthy
+39.9,Healthy
+78.8,Caution
+38.6,Healthy
+34.3,Healthy
+71.1,Caution
+38.0,Healthy
+85.5,Failure Likely
+42.2,Healthy
+62.6,Caution
+88.0,Failure Likely
+73.7,Caution
+43.6,Healthy
+64.0,Caution
+88.7,Failure Likely
+53.7,Healthy
+89.5,Failure Likely
+66.3,Caution
+50.6,Healthy
+39.4,Healthy
+87.5,Failure Likely
+65.2,Caution
+31.7,Healthy
+51.1,Healthy
+75.9,Caution
+44.0,Healthy
+30.5,Healthy
+84.4,Failure Likely
+73.2,Caution
+83.8,Failure Likely
+58.9,Healthy
+34.8,Healthy
+72.9,Caution
+55.9,Healthy
+78.2,Caution
+44.9,Healthy
+47.4,Healthy
+89.6,Failure Likely
+83.7,Failure Likely
+35.9,Healthy
+61.9,Caution
+52.8,Healthy
+85.3,Failure Likely
+47.6,Healthy
+85.3,Failure Likely
+32.1,Healthy
+51.6,Healthy
+42.5,Healthy
+83.8,Failure Likely
+36.8,Healthy
+80.3,Failure Likely
+38.9,Healthy
+49.8,Healthy
+32.0,Healthy
+46.8,Healthy
+51.0,Healthy
+35.3,Healthy
+51.7,Healthy
+74.7,Caution
+77.1,Caution
+76.8,Caution
+73.4,Caution
+30.1,Healthy
+46.3,Healthy
+40.4,Healthy
+50.1,Healthy
+76.4,Caution
+89.2,Failure Likely
+50.2,Healthy
+67.1,Caution
+86.6,Failure Likely
+58.5,Healthy
+45.6,Healthy
+35.4,Healthy
+83.2,Failure Likely
+43.8,Healthy
+60.8,Caution
+46.2,Healthy
+69.1,Caution
+58.0,Healthy
+69.3,Caution
+35.9,Healthy
+72.1,Caution
+62.6,Caution
+75.2,Caution
+62.1,Caution
+34.4,Healthy
+54.0,Healthy
+73.3,Caution
+61.0,Caution
+48.2,Healthy
+81.5,Failure Likely
+72.2,Caution
+46.6,Healthy
+74.0,Caution
+56.5,Healthy
+48.5,Healthy
+64.0,Caution
+89.8,Failure Likely
+56.4,Healthy
+77.4,Caution
+46.5,Healthy
+41.6,Healthy
+45.4,Healthy
+31.8,Healthy
+71.3,Caution
+54.9,Healthy
+41.4,Healthy
+40.0,Healthy
+43.4,Healthy
+73.4,Caution
+41.4,Healthy
+75.5,Caution
+33.6,Healthy
+64.8,Caution
+38.9,Healthy
+85.2,Failure Likely
+77.9,Caution
+43.7,Healthy
+30.9,Healthy
+66.0,Caution
+53.4,Healthy
+38.9,Healthy
+87.3,Failure Likely
+43.2,Healthy
+49.7,Healthy
+33.2,Healthy
+81.7,Failure Likely
+31.2,Healthy
+51.0,Healthy
+34.4,Healthy
+73.3,Caution
+58.8,Healthy
+57.3,Healthy
+51.4,Healthy
+36.6,Healthy
+85.2,Failure Likely
+85.0,Failure Likely
+56.8,Healthy
+84.8,Failure Likely
+85.6,Failure Likely
+40.4,Healthy
+71.1,Caution
+82.7,Failure Likely
+49.1,Healthy
+54.6,Healthy
+77.5,Caution
+42.9,Healthy
+72.0,Caution
+57.3,Healthy
+45.8,Healthy
+74.9,Caution
+68.7,Caution
+57.4,Healthy
+67.4,Caution
+80.8,Failure Likely
+50.8,Healthy
+43.9,Healthy
+58.6,Healthy
+46.3,Healthy
+62.6,Caution
+65.5,Caution
+39.2,Healthy
+67.9,Caution
+39.5,Healthy
+82.1,Failure Likely
+73.5,Caution
+65.7,Caution
+83.1,Failure Likely
+80.5,Failure Likely
+81.5,Failure Likely
+48.6,Healthy
+46.5,Healthy
+52.0,Healthy
+82.3,Failure Likely
+63.9,Caution
+85.7,Failure Likely
+76.1,Caution
+30.2,Healthy
+47.1,Healthy
+50.6,Healthy
+84.8,Failure Likely
+69.5,Caution
+34.1,Healthy
+38.5,Healthy
+60.7,Caution
+88.0,Failure Likely
+62.0,Caution
+69.4,Caution
+60.3,Caution
+41.6,Healthy
+34.8,Healthy
+57.3,Healthy
+44.3,Healthy
+36.6,Healthy
+55.4,Healthy
+65.4,Caution
+85.4,Failure Likely
+56.7,Healthy
+54.8,Healthy
+50.8,Healthy
+36.6,Healthy
+34.9,Healthy
+41.8,Healthy
+87.2,Failure Likely
+89.1,Failure Likely
+44.2,Healthy
+53.6,Healthy
+80.1,Failure Likely
+64.1,Caution
+61.5,Caution
+40.5,Healthy
+35.4,Healthy
+66.5,Caution
+64.4,Caution
+31.7,Healthy
+82.5,Failure Likely
+55.9,Healthy
+85.2,Failure Likely
+85.9,Failure Likely
+56.9,Healthy
+77.9,Caution
+43.0,Healthy
+64.2,Caution
+69.3,Caution
+67.0,Caution
+33.5,Healthy
+31.9,Healthy
+35.2,Healthy
+67.3,Caution
+35.4,Healthy
+89.4,Failure Likely
+53.9,Healthy
+53.5,Healthy
+80.8,Failure Likely
+48.5,Healthy
+58.7,Healthy
+81.4,Failure Likely
+68.4,Caution
+48.0,Healthy
+64.7,Caution
+63.9,Caution
+80.7,Failure Likely
+85.8,Failure Likely
+87.5,Failure Likely
+33.6,Healthy
+73.5,Caution
+85.1,Failure Likely
+82.2,Failure Likely
+38.9,Healthy
+85.8,Failure Likely
+53.5,Healthy
+30.5,Healthy
+51.7,Healthy
+80.3,Failure Likely
+76.4,Caution
+55.1,Healthy
+51.8,Healthy
+60.9,Caution
+45.5,Healthy
+84.1,Failure Likely
+78.2,Caution
+54.5,Healthy
+64.3,Caution
+67.3,Caution
+74.6,Caution
+75.6,Caution
+57.2,Healthy
+75.7,Caution
+45.2,Healthy
+34.2,Healthy
+48.9,Healthy
+84.1,Failure Likely
+86.7,Failure Likely
+44.6,Healthy
+43.2,Healthy
+84.2,Failure Likely
+41.4,Healthy
+64.5,Caution
+40.6,Healthy
+66.9,Caution
+68.1,Caution
+62.5,Caution
+31.0,Healthy
+38.5,Healthy
+67.7,Caution
+48.0,Healthy
+75.7,Caution
+81.3,Failure Likely
+80.6,Failure Likely
+45.9,Healthy
+60.8,Caution
+83.3,Failure Likely
+78.3,Caution
+73.3,Caution
+73.7,Caution
+37.2,Healthy
+36.4,Healthy
+31.2,Healthy
+30.4,Healthy
+76.3,Caution
+52.7,Healthy
+56.7,Healthy
+64.7,Caution
+86.6,Failure Likely
+34.6,Healthy
+84.7,Failure Likely
+49.8,Healthy
+76.4,Caution
+60.2,Caution
+75.7,Caution
+37.6,Healthy
+35.4,Healthy
+85.5,Failure Likely
+67.4,Caution
+32.3,Healthy
+31.4,Healthy
+62.6,Caution
+42.5,Healthy
+51.4,Healthy
+83.5,Failure Likely
+50.5,Healthy
+31.7,Healthy
+61.5,Caution
+73.6,Caution
+55.2,Healthy
+80.7,Failure Likely
+38.9,Healthy
+44.3,Healthy
+89.6,Failure Likely
+33.1,Healthy
+35.0,Healthy
+42.9,Healthy
+31.1,Healthy
+82.0,Failure Likely
+51.9,Healthy
+65.9,Caution
+34.1,Healthy
+53.1,Healthy
+87.9,Failure Likely
+41.9,Healthy
+65.3,Caution
+45.1,Healthy
+43.0,Healthy
+34.5,Healthy
+86.0,Failure Likely
+66.6,Caution
+47.7,Healthy
+54.5,Healthy
+40.8,Healthy
+30.3,Healthy
+52.4,Healthy
+83.9,Failure Likely
+63.7,Caution
+44.6,Healthy
+88.9,Failure Likely
+51.4,Healthy
+83.7,Failure Likely
+67.5,Caution
+45.6,Healthy
+72.3,Caution
+77.1,Caution
+69.7,Caution
+56.0,Healthy
+58.4,Healthy
+83.3,Failure Likely
+52.5,Healthy
+58.7,Healthy
+73.1,Caution
+74.7,Caution
+52.5,Healthy
+82.4,Failure Likely
+42.2,Healthy
+42.7,Healthy
+81.5,Failure Likely
+46.7,Healthy
+54.3,Healthy
+84.9,Failure Likely
+82.6,Failure Likely
+68.8,Caution
+81.3,Failure Likely
+34.5,Healthy
+37.8,Healthy
+56.2,Healthy
+43.7,Healthy
+67.1,Caution
+68.2,Caution
+70.5,Caution
+63.0,Caution
+44.7,Healthy
+77.7,Caution
+39.6,Healthy
+74.8,Caution
+53.7,Healthy
+58.0,Healthy
+45.3,Healthy
+51.0,Healthy
+70.0,Caution
+83.6,Failure Likely
+66.1,Caution
+73.7,Caution
+53.8,Healthy
+71.9,Caution
+68.6,Caution
+35.1,Healthy
+64.7,Caution
+42.6,Healthy
+85.7,Failure Likely
+49.7,Healthy
+89.1,Failure Likely
+38.6,Healthy
+35.1,Healthy
+89.8,Failure Likely
+34.5,Healthy
+36.7,Healthy
+70.7,Caution
+55.2,Healthy
+71.6,Caution
+82.1,Failure Likely
+36.9,Healthy
+38.5,Healthy
+72.8,Caution
+37.9,Healthy
+79.0,Caution
+83.6,Failure Likely
+42.7,Healthy
+72.8,Caution
+32.1,Healthy
+87.5,Failure Likely
+77.2,Caution
+84.6,Failure Likely
+84.0,Failure Likely
+65.5,Caution
+60.9,Caution
+74.4,Caution
+46.2,Healthy
+61.4,Caution
+33.1,Healthy
+52.2,Healthy
+63.5,Caution
+65.0,Caution
+87.3,Failure Likely
+35.3,Healthy
+87.4,Failure Likely
+87.4,Failure Likely
+50.6,Healthy
+86.7,Failure Likely
+51.3,Healthy
+78.2,Caution
+75.5,Caution
+50.5,Healthy
+76.4,Caution
+88.0,Failure Likely
+87.2,Failure Likely
+33.1,Healthy
+45.4,Healthy
+84.8,Failure Likely
+81.3,Failure Likely
+71.4,Caution
+35.8,Healthy
+76.2,Caution
+72.7,Caution
+82.1,Failure Likely
+51.8,Healthy
+34.5,Healthy
+36.2,Healthy
+75.2,Caution
+75.4,Caution
+56.9,Healthy
+57.5,Healthy
+66.7,Caution
+37.0,Healthy
+58.0,Healthy
+40.4,Healthy
+50.7,Healthy
+35.6,Healthy
+82.8,Failure Likely
+82.1,Failure Likely
+42.1,Healthy
+75.2,Caution
+49.5,Healthy
+35.8,Healthy
+66.5,Caution
+82.3,Failure Likely
+76.8,Caution
+36.9,Healthy
+42.6,Healthy
+38.9,Healthy
+66.6,Caution
+81.8,Failure Likely
+35.6,Healthy
+44.3,Healthy
+69.8,Caution
+69.2,Caution
+55.8,Healthy
+75.6,Caution
+43.9,Healthy
+52.8,Healthy
+84.0,Failure Likely
+34.6,Healthy
+49.8,Healthy
+73.1,Caution
+66.1,Caution
+81.4,Failure Likely
+35.5,Healthy
+69.7,Caution
+68.9,Caution
+85.5,Failure Likely
+54.1,Healthy
+51.2,Healthy
+67.1,Caution
+87.0,Failure Likely
+61.7,Caution
+40.1,Healthy
+87.1,Failure Likely
+62.4,Caution
+45.4,Healthy
+86.1,Failure Likely
+81.9,Failure Likely
+39.5,Healthy
+89.8,Failure Likely
+73.2,Caution
+62.8,Caution
+61.3,Caution
+89.6,Failure Likely
+42.4,Healthy
+39.0,Healthy
+35.9,Healthy
+81.3,Failure Likely
+75.1,Caution
+44.1,Healthy
+58.8,Healthy
+86.7,Failure Likely
+58.9,Healthy
+51.8,Healthy
+37.3,Healthy
+87.8,Failure Likely
+39.5,Healthy
+87.9,Failure Likely
+89.5,Failure Likely
+77.2,Caution
+61.7,Caution
+42.9,Healthy
+80.5,Failure Likely
+32.4,Healthy
+37.6,Healthy
+66.9,Caution
+84.6,Failure Likely
+88.1,Failure Likely
+83.2,Failure Likely
+42.3,Healthy
+89.4,Failure Likely
+48.9,Healthy
+84.4,Failure Likely
+89.5,Failure Likely
+80.7,Failure Likely
+45.4,Healthy
+90.0,Failure Likely
+50.5,Healthy
+68.5,Caution
+35.4,Healthy
+89.4,Failure Likely
+34.9,Healthy
+53.8,Healthy
+89.4,Failure Likely
+61.6,Caution
+35.5,Healthy
+69.2,Caution
+33.2,Healthy
+40.2,Healthy
+34.0,Healthy
+71.7,Caution
+89.7,Failure Likely
+89.2,Failure Likely
+84.9,Failure Likely
+37.3,Healthy
+31.0,Healthy
+67.9,Caution
+44.8,Healthy
+49.6,Healthy
+84.9,Failure Likely
+51.5,Healthy
+42.9,Healthy
+52.6,Healthy
+61.9,Caution
+65.7,Caution
+80.4,Failure Likely
+79.0,Caution
