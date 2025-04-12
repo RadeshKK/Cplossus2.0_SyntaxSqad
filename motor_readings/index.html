@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>MachIntel</title>
+  <style>
+    :root {
+      --primary-color: #FFD700;
+      --secondary-color: #000000;
+      --background-color: #1a1a1a;
+      --card-background: #2a2a2a;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      background-color: var(--background-color);
+      color: white;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 2rem;
+    }
+
+    .container {
+      max-width: 1200px;
+      width: 100%;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 2rem;
+      animation: fadeIn 1s ease-in;
+    }
+
+    h1 {
+      color: var(--primary-color);
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+    }
+
+    .dashboard {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 2rem;
+      margin-top: 2rem;
+    }
+
+    .motor-image {
+      background-color: var(--card-background);
+      padding: 2rem;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      animation: slideInLeft 1s ease-out;
+    }
+
+    .motor-image img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 5px;
+    }
+
+    .sensor-data {
+      background-color: var(--card-background);
+      padding: 2rem;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      animation: slideInRight 1s ease-out;
+    }
+
+    .sensor-card {
+      background-color: rgba(0, 0, 0, 0.2);
+      padding: 1.5rem;
+      margin-bottom: 1rem;
+      border-radius: 8px;
+      border-left: 4px solid var(--primary-color);
+      transition: transform 0.3s ease;
+    }
+
+    .sensor-card:hover {
+      transform: translateX(5px);
+    }
+
+    .sensor-card p {
+      font-size: 1.2rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .sensor-value {
+      color: var(--primary-color);
+      font-weight: bold;
+      font-size: 1.4rem;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+
+    @keyframes slideInLeft {
+      from { transform: translateX(-50px); opacity: 0; }
+      to { transform: translateX(0); opacity: 1; }
+    }
+
+    @keyframes slideInRight {
+      from { transform: translateX(50px); opacity: 0; }
+      to { transform: translateX(0); opacity: 1; }
+    }
+
+    @media (max-width: 768px) {
+      .dashboard {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>MachIntel</h1>
+      <h2>Real Time Data From IOT DEVICE</h2>
+    </header>
+    
+    <div class="dashboard">
+      <div class="motor-image">
+        <img src="motor.png" alt="Motor Image">
+      </div>
+      
+      <div class="sensor-data">
+        <div class="sensor-card">
+          <p>Temperature</p>
+          <span id="vibration" class="sensor-value">--</span> °C
+        </div>
+        <div class="sensor-card">
+          <p>Current</p>
+          <span id="current" class="sensor-value">--</span> A
+        </div>
+        <div class="sensor-card">
+          <p>Speed</p>
+          <span id="speed" class="sensor-value">--</span> RPM
+        </div>
+       
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const channelId = "2916002";
+    const apiKey = "XIBECH0IL1ZG6F8R";
+
+    const url = `https://api.thingspeak.com/channels/${channelId}/feeds.json?api_key=${apiKey}&results=1`;
+
+    function updateData() {
+      fetch(url)
+        .then(response => response.json())
+        .then(data => {
+          const feed = data.feeds[0];
+          document.getElementById("vibration").innerText = feed.field1;
+          document.getElementById("current").innerText = feed.field2;
+          document.getElementById("speed").innerText = feed.field3;
+          document.getElementById("beltTension").innerText = feed.field4;
+        })
+        .catch(error => console.error("Error fetching ThingSpeak data:", error));
+    }
+
+    // Update data immediately and then every 5 seconds
+    updateData();
+    setInterval(updateData, 5000);
+  </script>
+</body>
+</html>
