@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Device Details - MachIntel</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        .details-container {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 2rem;
+            background: var(--card-bg);
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .details-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 2rem;
+        }
+
+        .device-title {
+            font-size: 1.5rem;
+            color: var(--text-primary);
+        }
+
+        .status-badge {
+            padding: 0.5rem 1rem;
+            border-radius: 4px;
+            font-weight: bold;
+            text-transform: capitalize;
+        }
+
+        .status-healthy {
+            background-color: var(--status-healthy);
+            color: var(--text-primary);
+        }
+
+        .status-maintenance {
+            background-color: var(--status-maintenance);
+            color: var(--text-primary);
+        }
+
+        .status-replace {
+            background-color: var(--status-replace);
+            color: var(--text-primary);
+        }
+
+        .details-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .detail-card {
+            background: var(--bg-primary);
+            padding: 1rem;
+            border-radius: 6px;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+        }
+
+        .detail-label {
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+            margin-bottom: 0.5rem;
+        }
+
+        .detail-value {
+            font-size: 1.2rem;
+            font-weight: bold;
+            color: var(--text-primary);
+        }
+
+        .back-button {
+            position: fixed;
+            top: 1rem;
+            left: 1rem;
+            padding: 0.5rem 1rem;
+            background: var(--primary-color);
+            color: var(--text-primary);
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+        .back-button:hover {
+            background: var(--primary-hover);
+        }
+    </style>
+</head>
+<body>
+    <a href="dashboard.html" class="back-button">← Back to Dashboard</a>
+    
+    <div class="details-container">
+        <div class="details-header">
+            <h1 class="device-title" id="deviceName">Loading...</h1>
+            <span class="status-badge" id="deviceStatus">Loading...</span>
+        </div>
+        
+        <div class="details-grid" id="detailsGrid">
+            <!-- Details will be dynamically added here -->
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // Get URL parameters
+            const params = new URLSearchParams(window.location.search);
+            
+            // Update header information
+            document.getElementById('deviceName').textContent = params.get('name') || 'Unknown Device';
+            const status = params.get('status') || 'unknown';
+            const statusBadge = document.getElementById('deviceStatus');
+            statusBadge.textContent = status.charAt(0).toUpperCase() + status.slice(1);
+            statusBadge.className = `status-badge status-${status}`;
+
+            // Create detail cards for each parameter
+            const detailsGrid = document.getElementById('detailsGrid');
+            const detailParams = {
+                'Temperature': params.get('temperature'),
+                'Voltage': params.get('voltage'),
+                'Current': params.get('current'),
+                'RPM': params.get('rpm'),
+                'Vibration': params.get('vibration'),
+                'Flow Rate In': params.get('flowRateIn'),
+                'Flow Rate Out': params.get('flowRateOut'),
+                'Tool Wear': params.get('toolWear'),
+                'Spindle Load': params.get('spindleLoad'),
+                'Belt Speed': params.get('beltSpeed'),
+                'Load Capacity': params.get('loadCapacity')
+            };
+
+            // Add detail cards for each parameter that exists
+            Object.entries(detailParams).forEach(([label, value]) => {
+                if (value) {
+                    const card = document.createElement('div');
+                    card.className = 'detail-card';
+                    card.innerHTML = `
+                        <div class="detail-label">${label}</div>
+                        <div class="detail-value">${value}</div>
+                    `;
+                    detailsGrid.appendChild(card);
+                }
+            });
+        });
+    </script>
+</body>
+</html> 
